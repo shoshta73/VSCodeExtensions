@@ -1,0 +1,21 @@
+{
+  "name": "themes",
+  "displayName": "themes",
+  "description": "themes",
+  "version": "0.0.1",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "Catppuccin.catppuccin-vsc",
+    "tal7aouy.icons",
+    "BeardedBear.beardedicons",
+    "Catppuccin.catppuccin-vsc-icons",
+    "ShaneLiesegang.vscode-simple-icons-rev",
+    "comdec.simple-icons"
+  ]
+}
