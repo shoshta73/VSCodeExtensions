@@ -1,0 +1,26 @@
+{
+  "name": "csharpdotnet",
+  "displayName": "csharpdotnet",
+  "description": "csharpdotnet",
+  "version": "0.0.1",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "VisualStudioExptTeam.intellicode-api-usage-examples",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "VisualStudioExptTeam.vscodeintellicode-completions",
+    "VisualStudioExptTeam.vscodeintellicode-insiders",
+    "ms-dotnettools.vscode-dotnet-runtime",
+    "ms-dotnettools.vscode-dotnet-pack",
+    "ms-dotnettools.csdevkit",
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.vscodeintellicode-csharp",
+    "ms-dotnettools.dotnet-maui",
+    ""
+  ]
+}

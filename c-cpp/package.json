@@ -1,0 +1,24 @@
+{
+  "name": "c-cpp",
+  "displayName": "c-cpp",
+  "description": "c-cpp",
+  "version": "0.0.1",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "ms-vscode.cpptools-extension-pack",
+    "jeff-hykin.better-cpp-syntax",
+    "jeff-hykin.better-c-syntax",
+    "twxs.cmake",
+    "VisualStudioExptTeam.intellicode-api-usage-examples",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "VisualStudioExptTeam.vscodeintellicode-completions",
+    "VisualStudioExptTeam.vscodeintellicode-insiders",
+    "ms-dotnettools.vscode-dotnet-runtime"
+  ]
+}
