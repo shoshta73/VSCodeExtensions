@@ -1,6 +1,7 @@
 {
-  "name": "gocode",
-  "displayName": "gocode",
+  "publisher": "cptChika",
+  "name": "gocode-cptChika",
+  "displayName": "gocode-cptChika",
   "description": "gocode",
   "version": "0.0.1",
   "repository": {},
@@ -11,6 +12,7 @@
     "Extension Packs"
   ],
   "extensionPack": [ 
-    "golang.go"
+    "golang.go",
+    "jeff-hykin.better-go-syntax"
   ]
 }
