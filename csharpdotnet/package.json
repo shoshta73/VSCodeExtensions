@@ -1,6 +1,7 @@
 {
-  "name": "csharpdotnet",
-  "displayName": "csharpdotnet",
+  "publisher": "cptChika",
+  "name": "csharpdotnet-cptChika",
+  "displayName": "csharpdotnet-cptChika",
   "description": "csharpdotnet",
   "version": "0.0.1",
   "repository": {},
