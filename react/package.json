@@ -1,0 +1,24 @@
+{
+    "publisher": "cptChika",
+    "name": "react-cptChika",
+    "displayName": "react-cptChika",
+    "description": "react",
+    "version": "0.0.1",
+    "repository": {},
+    "engines": {
+        "vscode": "^1.88.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "esbenp.prettier-vscode",
+        "yoavbls.pretty-ts-errors",
+        "bradlc.vscode-tailwindcss",
+        "ecmel.vscode-html-css",
+        "stylelint.vscode-stylelint",
+        "ms-vscode.vscode-typescript-next",
+        "dbaeumer.vscode-eslint",
+        "dsznajder.es7-react-js-snippets"
+    ]
+}

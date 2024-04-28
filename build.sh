@@ -15,27 +15,22 @@ function install_extensions {
 
 cd themes
 vsce package
-mv themes-0.0.1.vsix ../
 cd ..
 
 cd c-cpp
 vsce package
-mv c-cpp-0.0.1.vsix ../
 cd ..
 
 cd csharpdotnet
 vsce package
-mv csharpdotnet-0.0.1.vsix ../
 cd ..
 
 cd gocode
 vsce package
-mv gocode-0.0.1.vsix ../
 cd ..
 
 cd commons
 vsce package
-mv commons-0.0.1.vsix ../
 cd ..
 
 install_extensions

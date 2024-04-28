@@ -1,6 +1,7 @@
 {
-  "name": "commons",
-  "displayName": "commons",
+  "publisher": "cptChika",
+  "name": "commons-cptChika",
+  "displayName": "commons-cptChika",
   "description": "commons",
   "version": "0.0.1",
   "repository": {},
