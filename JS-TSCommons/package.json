@@ -1,0 +1,16 @@
+{
+    "publisher": "cptChika",
+    "name": "JS-TS-commons-cptChika",
+    "displayName": "JS-TS-commons-cptChika",
+    "description": "JS-TS-commons",
+    "version": "0.0.2",
+    "repository": {},
+    "engines": {
+        "vscode": "^1.88.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+    ]
+}

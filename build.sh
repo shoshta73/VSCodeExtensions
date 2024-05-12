@@ -13,23 +13,31 @@ function install_extensions {
     done
 }
 
-cd themes
+cd vue/
 vsce package
 cd ..
-
-cd c-cpp
+cd gocode/
 vsce package
 cd ..
-
-cd csharpdotnet
+cd react/
 vsce package
 cd ..
-
-cd gocode
+cd rust/
 vsce package
 cd ..
-
-cd commons
+cd tauri/
+vsce package
+cd ..
+cd themes/
+vsce package
+cd ..
+cd c-cpp/
+vsce package
+cd ..
+cd commons/
+vsce package
+cd ..
+cd csharpdotnet/
 vsce package
 cd ..
 

@@ -3,7 +3,7 @@
   "name": "commons-cptChika",
   "displayName": "commons-cptChika",
   "description": "commons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {},
   "engines": {
     "vscode": "^1.88.0"
@@ -42,6 +42,7 @@
     "adpyke.codesnap",
     "christian-kohler.path-intellisense",
     "mkxml.vscode-filesize",
-    "GitLab.gitlab-workflow"
+    "GitLab.gitlab-workflow",
+    "Supermaven.supermaven"
   ]
 }

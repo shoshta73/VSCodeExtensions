@@ -3,7 +3,7 @@
     "name": "vue-cptChika",
     "displayName": "vue-cptChika",
     "description": "vue",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": {},
     "engines": {
         "vscode": "^1.88.0"
@@ -19,6 +19,7 @@
         "ecmel.vscode-html-css",
         "stylelint.vscode-stylelint",
         "ms-vscode.vscode-typescript-next",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "christian-kohler.npm-intellisense"
     ]
 }
