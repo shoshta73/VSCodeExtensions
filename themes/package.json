@@ -3,7 +3,7 @@
   "name": "themes-cptChika",
   "displayName": "themes-cptChika",
   "description": "themes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {},
   "engines": {
     "vscode": "^1.88.0"
@@ -17,6 +17,8 @@
     "BeardedBear.beardedicons",
     "Catppuccin.catppuccin-vsc-icons",
     "ShaneLiesegang.vscode-simple-icons-rev",
-    "comdec.simple-icons"
+    "comdec.simple-icons",
+    "antfu.theme-vitesse",
+    "tinaciousdesign.theme-tinaciousdesign"
   ]
 }

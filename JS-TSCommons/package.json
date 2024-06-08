@@ -1,16 +1,27 @@
 {
-    "publisher": "cptChika",
-    "name": "JS-TS-commons-cptChika",
-    "displayName": "JS-TS-commons-cptChika",
-    "description": "JS-TS-commons",
-    "version": "0.0.2",
-    "repository": {},
-    "engines": {
-        "vscode": "^1.88.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "extensionPack": [ 
-    ]
+  "publisher": "cptChika",
+  "name": "JS-TS-commons-cptChika",
+  "displayName": "JS-TS-commons-cptChika",
+  "description": "JS-TS-commons",
+  "version": "0.0.2",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "wix.vscode-import-cost",
+    "christian-kohler.npm-intellisense",
+    "ms-vscode.vscode-typescript-next",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "bradlc.vscode-tailwindcss",
+    "ecmel.vscode-html-css",
+    "Zignd.html-css-class-completion",
+    "pflannery.vscode-versionlens"
+  ]
 }

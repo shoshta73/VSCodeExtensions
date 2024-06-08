@@ -43,6 +43,7 @@
     "christian-kohler.path-intellisense",
     "mkxml.vscode-filesize",
     "GitLab.gitlab-workflow",
-    "Supermaven.supermaven"
+    "Supermaven.supermaven",
+    "zh9528.file-size"
   ]
 }

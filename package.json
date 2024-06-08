@@ -1,0 +1,7 @@
+{
+  "name": "vscodeextensions",
+  "scripts": {},
+  "dependencies": {
+    "@vscode/vsce": "^2.27.0"
+  }
+}

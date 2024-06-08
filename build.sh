@@ -1,44 +1,19 @@
-function install_extensions {
-    # Declare an array to hold the file names
-    declare -a files
-    # Use find to search for .txt files and loop through the results
-    while IFS= read -r -d '' file; do
-        # Add each file to the array
-        files+=("$file")
-    done < <(find . -type f -name "*.vsix" -print0)
-    # Print the array to verify the files were added
-    echo "Files found:"
-    for file in "${files[@]}"; do
-        code --install-extension $file
-    done
-}
+#!/bin/bash
+set -x
+set -e
 
-cd vue/
-vsce package
-cd ..
-cd gocode/
-vsce package
-cd ..
-cd react/
-vsce package
-cd ..
-cd rust/
-vsce package
-cd ..
-cd tauri/
-vsce package
-cd ..
-cd themes/
-vsce package
-cd ..
-cd c-cpp/
-vsce package
-cd ..
-cd commons/
-vsce package
-cd ..
-cd csharpdotnet/
-vsce package
-cd ..
+DIRS=$(find . -maxdepth 1 -type d | grep -v '.git' | grep -v ".vscode" | grep -v "node_modules" | sed -e 's,^\.\/,,' | grep -v "\.")
 
-install_extensions
+for dir in $DIRS; do
+    echo "Building $dir"
+    cd $dir
+    ../node_modules/.bin/vsce package
+    vsixFile=$(find . -maxdepth 1 -type f -name "*.vsix")
+    echo $vsixFile
+    mv $vsixFile ..
+    cd ..
+done
+
+tar -czvf extensions.tar.gz ./*.vsix
+
+rm -rfv ./*.vsix
