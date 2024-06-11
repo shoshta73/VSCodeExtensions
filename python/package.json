@@ -1,0 +1,24 @@
+{
+  "publisher": "cptChika",
+  "name": "python-cptChika",
+  "displayName": "python-cptChika",
+  "description": "python",
+  "version": "0.0.1",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.debugpy",
+    "ms-python.pylint",
+    "ms-python.mypy-type-checker",
+    "xirider.livecode",
+    "eeyore.yapf",
+    "traBpUkciP.wolf"
+  ]
+}
