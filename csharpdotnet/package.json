@@ -3,7 +3,7 @@
   "name": "csharpdotnet-cptChika",
   "displayName": "csharpdotnet-cptChika",
   "description": "csharpdotnet",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "repository": {},
   "engines": {
     "vscode": "^1.88.0"
@@ -11,7 +11,8 @@
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
+  "extensionPack": [
+    "ms-dotnettools.csdevkit",
     "VisualStudioExptTeam.intellicode-api-usage-examples",
     "VisualStudioExptTeam.vscodeintellicode",
     "VisualStudioExptTeam.vscodeintellicode-completions",

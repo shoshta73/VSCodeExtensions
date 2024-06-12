@@ -3,7 +3,7 @@
   "name": "commons-cptChika",
   "displayName": "commons-cptChika",
   "description": "commons",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "repository": {},
   "engines": {
     "vscode": "^1.88.0"

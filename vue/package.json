@@ -3,7 +3,7 @@
     "name": "vue-cptChika",
     "displayName": "vue-cptChika",
     "description": "vue",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "repository": {},
     "engines": {
         "vscode": "^1.88.0"

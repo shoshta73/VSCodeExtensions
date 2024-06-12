@@ -3,7 +3,7 @@
     "name": "react-cptChika",
     "displayName": "react-cptChika",
     "description": "react",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "repository": {},
     "engines": {
         "vscode": "^1.88.0"

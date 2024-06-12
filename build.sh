@@ -19,7 +19,7 @@ function check_git_changes() {
 for dir in $DIRS; do
     echo "Building $dir"
     cd $dir
-    npm version patch
+    npm version patch --no-git-tag-version
     ../node_modules/.bin/vsce package
     vsixFile=$(find . -maxdepth 1 -type f -name "*.vsix")
     echo $vsixFile
