@@ -20,6 +20,9 @@ for dir in $DIRS; do
     echo "Building $dir"
     cd $dir
     npm version patch --no-git-tag-version
+    git add .
+    git commit -m"update"
+    git push
     ../node_modules/.bin/vsce package
     vsixFile=$(find . -maxdepth 1 -type f -name "*.vsix")
     echo $vsixFile
