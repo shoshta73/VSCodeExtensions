@@ -3,7 +3,7 @@
   "name": "themes-cptChika",
   "displayName": "themes-cptChika",
   "description": "themes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {},
   "engines": {
     "vscode": "^1.88.0"
@@ -11,14 +11,8 @@
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
-    "Catppuccin.catppuccin-vsc",
-    "tal7aouy.icons",
-    "BeardedBear.beardedicons",
-    "Catppuccin.catppuccin-vsc-icons",
-    "ShaneLiesegang.vscode-simple-icons-rev",
-    "comdec.simple-icons",
-    "antfu.theme-vitesse",
-    "tinaciousdesign.theme-tinaciousdesign"
+  "extensionPack": [
+    "vscode-icons-team.vscode-icons",
+    "jdinhlife.gruvbox"
   ]
 }
