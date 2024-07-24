@@ -1,0 +1,18 @@
+{
+  "publisher": "cptChika",
+  "name": "gocode-cptChika",
+  "displayName": "gocode-cptChika",
+  "description": "extensions for go code",
+  "version": "0.0.1",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "golang.go",
+    "jeff-hykin.better-go-syntax"
+  ]
+}
