@@ -3,7 +3,7 @@
   "name": "js-ts-common-cptChika",
   "displayName": "js-ts-common-cptChika",
   "description": "extension pack for js-ts code",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {},
   "engines": {
     "vscode": "^1.88.0"
@@ -15,6 +15,9 @@
     "ms-vscode.vscode-typescript-next",
     "YoavBls.pretty-ts-errors",
     "jeff-hykin.better-js-syntax",
-    "ms-vscode.js-debug-nightly"
+    "ms-vscode.js-debug-nightly",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ChakrounAnas.turbo-console-log"
   ]
 }

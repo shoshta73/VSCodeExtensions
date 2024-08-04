@@ -1,0 +1,25 @@
+{
+  "publisher": "cptChika",
+  "name": "commons-cptChika",
+  "displayName": "commons-cptChika",
+  "description": "commons",
+  "version": "0.0.2",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "alefragnani.Bookmarks",
+    "ms-vscode-remote.remote-wsl",
+    "EditorConfig.EditorConfig",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "emilast.LogFileHighlighter",
+    "mkxml.vscode-filesize",
+    "supermaven.supermaven"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "publisher": "cptChika",
+  "name": "tauri-cptChika",
+  "displayName": "tauri-cptChika",
+  "description": "extensionPack for tauri",
+  "version": "0.0.1",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "rust-lang.rust-analyzer",
+    "dustypomerleau.rust-syntax",
+    "tamasfe.even-better-toml",
+    "tauri-apps.tauri-vscode"
+  ]
+}

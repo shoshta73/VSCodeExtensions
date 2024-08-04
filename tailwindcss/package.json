@@ -1,0 +1,18 @@
+{
+  "publisher": "cptChika",
+  "name": "tailwindcss-cptChika",
+  "displayName": "tailwindcss-cptChika",
+  "description": "tailwindcss extension pack",
+  "version": "0.0.1",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "bradlc.vscode-tailwindcss",
+    "austenc.tailwind-docs"
+  ]
+}

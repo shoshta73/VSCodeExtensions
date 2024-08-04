@@ -1,0 +1,23 @@
+{
+  "publisher": "cptChika",
+  "name": "github-cptChika",
+  "displayName": "github-cptChika",
+  "description": "extension pack for working with github",
+  "version": "0.0.1",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "GitHub.vscode-pull-request-github",
+    "GitHub.codespaces",
+    "GitHub.remotehub",
+    "GitHub.vscode-github-actions",
+    "me-dutour-mathieu.vscode-github-actions",
+    "ms-vscode.vscode-github-issue-notebooks",
+    "bierner.markdown-preview-github-styles"
+  ]
+}
