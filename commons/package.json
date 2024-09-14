@@ -3,7 +3,7 @@
   "name": "commons-cptChika",
   "displayName": "commons-cptChika",
   "description": "commons",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "repository": {},
   "engines": {
     "vscode": "^1.88.0"
@@ -20,6 +20,6 @@
     "mhutchie.git-graph",
     "emilast.LogFileHighlighter",
     "mkxml.vscode-filesize",
-    "supermaven.supermaven"
+    "ms-vscode-remote.remote-ssh"
   ]
 }

@@ -3,7 +3,7 @@
   "name": "ccpp-cptChika",
   "displayName": "ccpp-cptChika",
   "description": "extensionPack for c and or cpp coidng",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {},
   "engines": {
     "vscode": "^1.88.0"
@@ -17,8 +17,6 @@
     "ms-vscode.makefile-tools",
     "tboox.xmake-vscode",
     "holychicken99.premake-snippets",
-    "jeff-hykin.better-cpp-syntax",
-    "jeff-hykin.better-c-syntax",
     "llvm-vs-code-extensions.vscode-clangd"
   ]
 }

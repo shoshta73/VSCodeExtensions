@@ -1,9 +1,9 @@
 {
   "publisher": "cptChika",
-  "name": "themes-cptChika",
-  "displayName": "themes-cptChika",
-  "description": "themes",
-  "version": "0.0.6",
+  "name": "sveltekit-cptChika",
+  "displayName": "sveltekit-cptChika",
+  "description": "sveltekit extension pack",
+  "version": "0.0.1",
   "repository": {},
   "engines": {
     "vscode": "^1.88.0"
@@ -12,6 +12,6 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "vscode-icons-team.vscode-icons"
+    "svelte.svelte-vscode"
   ]
 }
